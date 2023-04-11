@@ -14,8 +14,9 @@
 Copy this repository to your project folder and us it as the following example:
 
 ```python
-import telegram_notificator
-def notify = telegram_notificator(YOUR_TELEGRAM_BOT_TOKEN, YOUR_TELEGRAM_CHAT_ID)
+from telegram_notificator import telegram_notificator as tn
+
+def notify = tn(YOUR_TELEGRAM_BOT_TOKEN, YOUR_TELEGRAM_CHAT_ID)
 
 notify.send_message('Hello world!')
 ```
