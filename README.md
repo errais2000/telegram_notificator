@@ -27,4 +27,4 @@ def telegram = tn(YOUR_TELEGRAM_BOT_TOKEN, YOUR_TELEGRAM_CHAT_ID)
 telegram.send_message('Hello world!')
 ```
 
-To get your YOUR_TELEGRAM_BOT_TOKEN and YOUR_TELEGRAM_CHAT_ID details just do a search about how to create a telegram bot using [BotFather](https://t.me/botfather).
+To get your `YOUR_TELEGRAM_BOT_TOKEN` and `YOUR_TELEGRAM_CHAT_ID` details just do a search about how to create a telegram bot using [BotFather](https://t.me/botfather).
