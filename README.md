@@ -22,9 +22,9 @@ Then copy the telegram_notificator file to your project folder and us it as the 
 ```python
 from telegram_notificator import telegram_notificator as tn
 
-def notify = tn(YOUR_TELEGRAM_BOT_TOKEN, YOUR_TELEGRAM_CHAT_ID)
+def telegram = tn(YOUR_TELEGRAM_BOT_TOKEN, YOUR_TELEGRAM_CHAT_ID)
 
-notify.send_message('Hello world!')
+telegram.send_message('Hello world!')
 ```
 
 To get your YOUR_TELEGRAM_BOT_TOKEN and YOUR_TELEGRAM_CHAT_ID details just do a search about how to create a telegram bot using [BotFather](https://t.me/botfather).
