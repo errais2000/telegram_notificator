@@ -11,7 +11,13 @@
 
 ## Installation
   
-Copy this repository to your project folder and us it as the following example:
+Install the libriry requests as follow:
+
+```
+pip install requests
+```
+
+Then copy the telegram_notificator file to your project folder and us it as the following example:
 
 ```python
 from telegram_notificator import telegram_notificator as tn
