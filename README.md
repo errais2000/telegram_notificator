@@ -11,15 +11,7 @@
 
 ## Installation
   
-You don't need to copy this repository into your project folder, use pip to install it instead into your [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
-
-Once you have your virtual environment set up and activated you can install the packages thus:
-
-```
-$ pip install git+https://github.com/errais2000/telegram_notificator
-```
-
-Then, in your python script just import it and use it:
+Copy this repository to your project folder and us it as the following example:
 
 ```python
 import telegram_notificator
