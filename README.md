@@ -22,9 +22,9 @@ Then simply use it like this:
 ```python
 from telegram_notificator import TelegramNotificator as tn
 
-def telegram = tn(YOUR_TELEGRAM_BOT_TOKEN, YOUR_TELEGRAM_CHAT_ID)
+telegram = tn(YOUR_TELEGRAM_BOT_TOKEN, YOUR_TELEGRAM_CHAT_ID)
 
-telegram.send_message('Hello world!')
+telegram.SendMessage('Hello world!')
 ```
 
 To get your `YOUR_TELEGRAM_BOT_TOKEN` and `YOUR_TELEGRAM_CHAT_ID` details just do a search about how to create a telegram bot using [BotFather](https://t.me/botfather).
