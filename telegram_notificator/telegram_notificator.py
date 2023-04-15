@@ -1,11 +1,11 @@
 import requests
 
-class telegram_notificator:
+class TelegramNotificator:
   def __init__(self, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID):
     self.TELEGRAM_BOT_TOKEN = TELEGRAM_BOT_TOKEN
     self.TELEGRAM_CHAT_ID = TELEGRAM_CHAT_ID
 
-  def send_message(self, message):
+  def SendMessage(self, message):
     data = {
               'chat_id': self.TELEGRAM_CHAT_ID,
               'text': message,
