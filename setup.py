@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 DESCRIPTION = 'A basic telegram notifications sender.'
 LONG_DESCRIPTION = 'Send telegram notifications or alerts from your python programs.'
 
