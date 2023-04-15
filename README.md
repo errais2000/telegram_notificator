@@ -4,7 +4,7 @@
 <div align="center">
 
 
-**A tiny class to send telegram notifications or alerts from your python programs.**
+**Send telegram notifications or alerts from your python programs.**
 
 
 <div align="left">
