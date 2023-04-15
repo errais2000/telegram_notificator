@@ -1,21 +1,16 @@
 from setuptools import setup, find_packages
 
 
-
-VERSION = '1.0.0'
-DESCRIPTION = 'A basic telegram notifications sender.'
-LONG_DESCRIPTION = 'Send telegram notifications or alerts from your python programs.'
-
 # Setting up
 setup(
     name="TelegramNotificator",
-    version=VERSION,
+    version='1.0.2',
     author="Cryptoroid",
     author_email="",
     license='MIT',
-    description=DESCRIPTION,
+    description='A basic telegram notifications sender.',
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
+    long_description='Send telegram notifications or alerts from your python programs.',
     packages=find_packages(),
     install_requires=['requests'],
     keywords=['telegram', 'message', 'notification', 'alert', 'send message', 'telegram message', 'telegram bot'],
