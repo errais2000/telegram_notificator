@@ -1,6 +1,6 @@
 import requests
 
-class TelegramNotificator:
+class TelegramNotificator0:
   def __init__(self, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID):
     self.TELEGRAM_BOT_TOKEN = TELEGRAM_BOT_TOKEN
     self.TELEGRAM_CHAT_ID = TELEGRAM_CHAT_ID
