@@ -11,16 +11,16 @@
 
 ## Installation
   
-Install the libriry requests as follow:
+Install the library TelegramNotificator as follow:
 
 ```
-pip install requests
+pip install TelegramNotificator
 ```
 
-Then copy the telegram_notificator file to your project folder and us it as the following example:
+Then simply use it like this:
 
 ```python
-from telegram_notificator import telegram_notificator as tn
+from telegram_notificator import TelegramNotificator as tn
 
 def telegram = tn(YOUR_TELEGRAM_BOT_TOKEN, YOUR_TELEGRAM_CHAT_ID)
 
