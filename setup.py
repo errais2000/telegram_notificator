@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 # Setting up
 setup(
     name="TelegramNotificator",
-    version='1.0.2',
+    version='1.0.3',
     author="Cryptoroid",
     author_email="",
     license='MIT',
